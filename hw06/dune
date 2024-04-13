@@ -1,0 +1,18 @@
+(include_subdirs unqualified)
+
+(library
+ (name hw6_test)
+ (inline_tests)
+ (preprocess (pps ppx_inline_test)))
+
+; (include_subdirs unqualified)
+
+; (library
+;  (name pra)
+;  (modules parser))
+
+; (include_subdirs unqualified)
+
+; (executable
+; (name hw6))
+
