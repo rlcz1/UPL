@@ -1,0 +1,45 @@
+(include_subdirs unqualified)
+
+(library
+ (name hw9_test)
+ (inline_tests)
+ (preprocess (pps ppx_inline_test)))
+
+; (include_subdirs unqualified)
+
+; (library
+;  (name store)
+;  (modules store))
+
+; (include_subdirs unqualified)
+
+; (executable
+; (name hw6))
+
+
+
+
+; (include_subdirs unqualified)
+
+; ; (library
+; ;  (name store)
+; ;  (modules store))
+
+; (library
+;  (name Ast)
+;  (modules Ast))
+
+; (library
+;   (name parserMain)
+;   (modules parserMain Parser Lexer)
+;   (libraries Ast))
+
+; ; (library
+; ;  (name hw7)
+; ;  (modules hw7)
+; ;  (libraries store Ast parserMain))
+; (library
+;  (name store)
+;  (modules store)
+;  (libraries Ast parserMain))
+
